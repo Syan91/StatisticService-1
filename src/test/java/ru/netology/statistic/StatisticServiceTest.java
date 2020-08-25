@@ -17,6 +17,7 @@ class StatisticServiceTest {
 
         assertEquals(expected, actual);
     }
+
     @Test
     void findMaxAdd() {
         StatisticService service = new StatisticService();
